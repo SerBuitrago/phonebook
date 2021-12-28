@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class PhonebookApplicationTests {
 
 	@Test
-	void contextLoads() {
-	}
+    void main() {
+        PhonebookApplication.main(new String[] {});
+    }
 
 }

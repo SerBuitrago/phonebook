@@ -16,7 +16,7 @@
 	<artifactId>phonebook</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>phonebook</name>
-	<description>API Rest - MongoDB and Test Unit and Mockito</description>
+	<description>API Rest - MongoDB and Unit Test and Mockito</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -103,5 +103,4 @@
             </plugin>
 		</plugins>
 	</build>
-
 </project>

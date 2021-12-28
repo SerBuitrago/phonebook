@@ -22,6 +22,10 @@ public class ContactServiceImpl implements ContactService {
 
 	@Autowired
 	ContactRepository contactRepository;
+	
+	public ContactServiceImpl(ContactRepository contactRepository) {
+		this.contactRepository = contactRepository;
+	}
 
 	@Override
 	public Contact findById(String id) {
